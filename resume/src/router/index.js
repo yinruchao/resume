@@ -1,8 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Resume from '@/pages/resume/resume'
-import Wx from '@/pages/wx/Wx'
-import Qq from '@/pages/qq/Qq'
 
 Vue.use(Router)
 
@@ -11,17 +8,17 @@ export default new Router({
     {
       path: '/',
       name: 'Resume',
-      component: Resume
+      component: () => import('@/pages/resume/resume')
     },
     {
       path: '/wx',
       name: 'Wx',
-      component: Wx
+      component: () => import('@/pages/wx/Wx')
     },
     {
       path: '/qq',
       name: 'Qq',
-      component: Qq
+      component: () => import('@/pages/qq/Qq')
     }
   ]
 })

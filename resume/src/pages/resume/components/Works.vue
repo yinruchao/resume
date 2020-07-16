@@ -16,7 +16,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://cv.yinruchao.cn/Travel" target="_blank">
+                    <a href="http://travel.yinruchao.cn" target="_blank">
                         <i></i>
                         <div>
                             <h3>vue仿写去哪儿网</h3>
